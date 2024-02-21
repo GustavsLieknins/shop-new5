@@ -1,9 +1,56 @@
-form {
+*
+{
+  box-sizing: border-box;
+}
+
+:root
+{
+  font-family: Arial;
+  --header-height: 50px;
+}
+
+main
+{
+  margin-top: var(--header-height);
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: var(--header-height);
+}
+
+header > div
+{
+  display: flex;
+  gap: 10px;
+}
+
+header > div > form > button
+{
+  background-color: red;
+  border-radius: 10px;
+  height: 40px;
+  width: 60px;
+  margin-top: 5px;
+  border: none;
+  color: white;
+}
+
+/* form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 30vw;
-}
+} */
 
 input, textarea {
   padding: 7px 10px;
@@ -12,7 +59,7 @@ input, textarea {
 }
 
 button {
-  padding: 7px 20px;
+  /* padding: 7px 20px; */
   background-color: purple;
   border: none;
   color: white;
