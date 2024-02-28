@@ -35,7 +35,7 @@
       @error("password")
         <p>Mēģini vēlreiz. {{$message}}</p>
       @enderror
-      <button>Submit</button>
+      <button>Login</button>
     </form>
     @if (session()->has("success"))
       <div x-data="{ open: true }">
