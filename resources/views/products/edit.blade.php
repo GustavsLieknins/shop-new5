@@ -1,5 +1,5 @@
 <x-layout>
-  
+<main>
   @if ($errors->any())
     <ul style="position: fixed; top:20px; left: 20px" class="alert alert-danger">
       @foreach ($errors->all() as $err)
@@ -31,5 +31,5 @@
     </label>
     <button>Update</button>
   </form>
-  
+  <main>
 </x-layout>

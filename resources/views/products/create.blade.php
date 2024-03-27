@@ -1,4 +1,5 @@
-</x-layout>
+<x-layout>
+<main>
   @if ($errors->any())
     <ul style="position: fixed; top:20px; left: 20px" class="alert alert-danger">
       @foreach ($errors->all() as $err)
@@ -20,7 +21,7 @@
     </label>
     <label>
       Price:
-      <input type="number" step="0.01" max="9" name="price"/>
+      <input type="number" step="0.01" name="price"/>
     </label>
     <label>
       Image:
@@ -28,4 +29,5 @@
     </label>
     <button>Add</button>
   </form>
+  </main>
 </x-layout>

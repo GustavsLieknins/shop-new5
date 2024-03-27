@@ -20,6 +20,7 @@
 </head>
 
 <body>
+<main>
     <h1>Register</h1>
     <form method="POST" action="/register">
       @csrf
@@ -46,6 +47,7 @@
       @enderror
       <button>Submit</button>
     </form>
+    </main>
 </body>
 
 </html>

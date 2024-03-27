@@ -9,7 +9,10 @@
     <form method="POST" action="/products/{{$product->id}}">
       @csrf
       @method("DELETE")
-      <button>❌</button>
+      <button class="cool_buttons red_but">Delete</button>
+      <a href="/products" class="cool_buttons green_but">Back</a>
+      <a href="/products/{{ $product->id }}/edit" class="cool_buttons blue_but">Edit</a>
     </form>
+
   </main>
 </x-layout>

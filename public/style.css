@@ -66,3 +66,52 @@ button {
   color: white;
   cursor: pointer;
 }
+a
+{
+  text-decoration:none;
+  color: black;
+  margin-top: 17px;
+}
+.product_card
+{
+  width: max-content;
+}
+
+.product_card_a
+{
+  width: max-content;
+}
+
+.section_products
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+}
+.cool_buttons
+{
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.red_but
+{
+  font-size: inherit;
+  font-weight: bold;
+  color: red;
+  border: 1px solid red;
+}
+.green_but
+{
+  color: green;
+  border: 1px solid green;
+}
+.blue_but
+{
+  color: blue;
+  border: 1px solid blue;
+}

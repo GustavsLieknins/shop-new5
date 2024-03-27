@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <p>BestShopVHQ</p>
+    <a href="/products">BestShopVHQ</a>
     @auth
       <div>
         <p>Wsp, {{ auth()->user()->name }}</p>

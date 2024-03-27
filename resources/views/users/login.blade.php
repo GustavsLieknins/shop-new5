@@ -21,6 +21,7 @@
 </head>
 
 <body>
+<main>
     <h1>Login</h1>
     <form method="POST" action="/login">
       @csrf
@@ -45,6 +46,7 @@
         </div>
       </div>
     @endif
+    </main>
 </body>
 
 </html>
